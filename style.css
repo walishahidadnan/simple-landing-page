@@ -1,0 +1,212 @@
+.topSection {
+  background-image: url('./Images/OurTomorrow1.png');
+  background-size: cover;
+  background-position: bottom;
+   height: 60rem; 
+}
+.topSection .alpha{
+  background: linear-gradient(transparent, transparent, #02186A);
+}
+.gif img {
+  height: 250px;
+}
+
+.about-us-heading{
+  font-family: Poppins;
+  font-weight: 500;
+  text-align: left;
+  font-size: 35px !important;
+}
+body {
+  background-color: #02186b !important;
+}
+.headingtext h1{
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.headingtext h2 {
+  color: rgb(226, 56, 90);
+  text-align: left;
+  font-weight: bolder;
+  font-weight: 700;
+  font-size: 45px;
+}
+.headingtext h3{
+  font-weight: 700;
+  font-size: 45px;
+}
+.header-btn{
+  flex-wrap: wrap;
+}
+.TouchBtn {
+  background: rgb(226, 56, 90) !important;
+  font-size: 22px !important;
+  color: #ffff !important;
+  outline: none;
+  border-radius: 25px !important;
+  padding: 6px 15px !important;
+  width: 10rem;
+  font-family: Poppins;
+  width: 264px;
+  height: 58px;
+}
+.TouchBtn:hover {
+  background-color: red !important;
+}
+.CoursesBtn {
+  background-color: rgb(136, 155, 204) !important;
+  font-size: 24px !important;
+  color: #ffff !important;
+  outline: none;
+  border-radius: 25px !important;
+  padding: 6px 19px !important;
+  width: 264px;
+  height: 58px;
+}
+.CoursesBtn:hover {
+  background-color: rgb(103, 119, 160) !important;
+}
+
+.topSecond {
+  text-align: start;
+  margin-top: 20rem !important;
+}
+.topSecond h2 {
+  color: #ffffff;
+
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.topSecond p {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 30px;
+}
+.topSecond span {
+  color: #ef79a6;
+  font-weight: 800;
+}
+.Histroy {
+  color: #ffff !important;
+  font-size: 22px !important;
+}
+
+.textPink {
+  color: #ef79a6 !important;
+}
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active,
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+  transform: translateX(0);
+}
+.Carosul {
+  background-color: #ffffff;
+}
+
+
+
+.card-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background: rgba(2,24,107,0.6);
+  transition: background 0.5s ease;
+}
+
+.card-container:hover .overlay {
+  display: block;
+  background: rgba(100,24,107,0.6);
+}
+
+.card-image {
+  position: relative;
+  width:100%;
+  height: 300px !important;
+  left: 0;
+  border: 1px solid white;
+}
+
+.title {
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top 0.5s ease;
+}
+
+.card-container:hover .title {
+  top: 50px;
+}
+
+.button {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  top: 150px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 1px #ee79a6;
+  z-index: 1;
+  background: #ee79a6;
+  border-radius: 155px;
+  text-decoration: none;
+}
+
+.card-container:hover .button {
+  opacity: 1;
+}
